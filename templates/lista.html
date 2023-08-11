@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block titulo %}{% endblock %}
+{% block conteudo %}
+<table class="table table-striped table-responsive table-bordered">
+    <thead class="thead-default">
+        <tr>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Console</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for jogo in jogos %}
+        <tr>
+            <td>{{jogo.nome}}</td>
+            <td>{{jogo.categoria}}</td>
+            <td>{{jogo.console}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<section class="area-botao">     
+    <a href="{{ url_for('novo') }}" class="botao">Novo</a>
+</section>
+{% endblock %}

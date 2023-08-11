@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    border: 1px solid black;
+    width: 50vw;
+    margin: 0px;
+    padding: 0px;
+}
+.page-header {
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.table {
+    width: 500px;
+    margin: 25px;
+}
+.area-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 7px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.botao:hover {
+    color: white;
+    background-color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+
+fieldset {
+    margin: 10px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: black;
+    border-color: black;
+}
+.btn:hover {
+    background-color: rgb(70, 70, 70);
+    border-color: rgb(70, 70, 70);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 50px;
+    background-color: black;
+}
+.footer-text {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
